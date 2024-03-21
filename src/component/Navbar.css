@@ -1,0 +1,93 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color:white;
+}
+#logo {
+  /* width: 200px; */
+  height: 60px;
+  /* height: auto; */
+}
+
+#navbarSupportedContent {
+  font-size: 22px;
+  padding-right: 20px;
+}
+.navbar-nav {
+  gap: 30px;
+}
+.nav-item {
+  color: black;
+}
+/* // */
+.loader2 {
+  -webkit-perspective: 700px;
+  perspective: 700px;
+  /* background: red; */
+  padding: 10px 20px;
+}
+
+.loader2>span {
+  font-size: 60px;
+  font-family: "franklin gothic medium",sans-serif;
+  display: inline-block;
+  animation: flip 2.6s infinite linear;
+  transform-origin: 0 70%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+@keyframes flip {
+  35% {
+    transform: rotatez(360deg);
+  }
+
+  100% {
+    transform: rotatez(360deg);
+  }
+}
+
+.loader2>span:nth-child(even) {
+  color: rgb(84, 167, 51);
+}
+
+.loader2>span:nth-child(2) {
+  animation-delay: 0.3s;
+  color: rgb(45, 172, 211);
+
+}
+
+.loader2>span:nth-child(3) {
+  animation-delay: 0.6s;
+  color: rgb(172, 148, 16);
+
+}
+
+.loader2>span:nth-child(4) {
+  animation-delay: 0.9s;
+  color: rgb(204, 24, 129);
+
+}
+
+.loader2>span:nth-child(5) {
+  animation-delay: 1.2s;
+  color: rgb(148, 60, 219);
+
+}
+
+.loader2>span:nth-child(6) {
+  animation-delay: 1.5s
+}
+
+.loader2>span:nth-child(7) {
+  animation-delay: 1.8s
+}
+
+@media (max-width: 900px) {
+  .navbar-nav {
+    gap: 15px;
+    padding: 20px;
+  }
+}
