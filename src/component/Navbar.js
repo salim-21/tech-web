@@ -13,11 +13,11 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       {/* <div class="container"> */}
   <div class="loader2">
-      {/* <span>S</span>
+      <span>S</span>
       <span>A</span>
       <span>L</span>
       <span>I</span>
-      <span>M</span> */}
+      <span>M</span>
       {/* <span>N</span>
       <span>G</span> */}
     </div>
@@ -46,9 +46,9 @@ const Navbar = () => {
               <li class="nav-item">Service</li>
             </Link>
 
-            <Link to={"/Digital"} style={{ textDecoration: "none" }}>
+            <Link to={"/contact"} style={{ textDecoration: "none" }}>
               {" "}
-              <li class="nav-item">Digital</li>
+              <li class="nav-item">Contact</li>
             </Link>
           </ul>
         </div>

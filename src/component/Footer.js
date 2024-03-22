@@ -1,8 +1,9 @@
 import React from 'react'
+import  { Fragment } from "react";
 
 function Footer() {
   return (
-    <div>
+    <Fragment>
         <div className='container-fluid'>
       <footer class="bg-body-tertiary text-center">
   {/* <!-- Grid container --> */}
@@ -15,7 +16,7 @@ function Footer() {
         class="btn text-white btn-floating m-1"
         style={{backgroundColor:' #3b5998'}}
 
-        href="#!"
+        href="https://www.facebook.com/profile.php?id=100019881785277"
         role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
@@ -37,7 +38,7 @@ function Footer() {
         style={{backgroundColor:' #dd4b39'}}
 
         
-        href="#!"
+        href="https://www.facebook.com/profile.php?id=100019881785277"
         role="button"
         ><i class="fab fa-google"></i
       ></a>
@@ -48,7 +49,7 @@ function Footer() {
         class="btn text-white btn-floating m-1"
         style={{backgroundColor:' #ac2bac'}}
 
-        href="#!"
+        href="https://www.instagram.com/salim_choudhary_090/"
         role="button"
         ><i class="fab fa-instagram"></i
       ></a>
@@ -58,7 +59,7 @@ function Footer() {
         data-mdb-ripple-init
         class="btn text-white btn-floating m-1"
         style={{backgroundColor:' #0082ca'}}
-        href="#!"
+        href="https://www.linkedin.com/in/salim-khan-a375322ba/"
         role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
@@ -68,7 +69,7 @@ function Footer() {
         class="btn text-white btn-floating m-1"
         style={{backgroundColor:' #333333'}}
 
-        href="#!"
+        href="https://github.com/salim-21"
         role="button"
         ><i class="fab fa-github"></i
       ></a>
@@ -85,8 +86,7 @@ function Footer() {
   {/* <!-- Copyright --> */}
 </footer>
 </div>
-    </div>
+    </Fragment>
   )
 }
-
 export default Footer
