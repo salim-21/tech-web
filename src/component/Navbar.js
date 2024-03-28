@@ -12,15 +12,16 @@ const Navbar = () => {
       {/* navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       {/* <div class="container"> */}
-  <div class="loader2">
+  {/* <div class="loader2">
       <span>S</span>
       <span>A</span>
       <span>L</span>
       <span>I</span>
       <span>M</span>
-      {/* <span>N</span>
-      <span>G</span> */}
-    </div>
+    </div> */}
+     <div class="loader12">
+   <div data-glitch="Salim" class="glitch">Salim</div>
+</div>
 {/* </div> */}
 
         {/* <img src={a} alt="" id="logo" /> */}
